@@ -1,0 +1,36 @@
+name: shadow_shat
+description: "Shadow Chat - BETA experimental release."
+publish_to: 'none'
+
+version: 1.0.0-beta.1+1
+
+environment:
+  sdk: ^3.12.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  audioplayers: ^6.0.0
+  cryptography: ^2.7.0
+  record: ^6.0.0
+  image_picker: ^1.1.2
+  firebase_core: ^3.13.0
+  firebase_auth: ^5.5.3
+  firebase_messaging: ^15.2.10
+  cloud_firestore: ^5.6.7
+  shared_preferences: ^2.5.3
+  flutter_contacts: ^2.3.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/magic_bg.jpg
+    - assets/images/whale.jpg
+    - assets/audio/whale_sound.mp3
